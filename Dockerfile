@@ -12,7 +12,7 @@ COPY . .
 
 ENV NODE_ENV=production
 # The app reads a lowercase "port" variable (see server.js).
-ENV port=5000
+
 EXPOSE 5000
 
 # Run node directly. "npm start" uses nodemon, which is a dev tool.
